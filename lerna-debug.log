@@ -1,0 +1,10 @@
+0 silly argv { _: [ 'add' ],
+0 silly argv   globs: [ 'packages/showcase' ],
+0 silly argv   lernaVersion: '3.22.1',
+0 silly argv   '$0': 'node_modules/.bin/lerna',
+0 silly argv   pkg: 'gl-extensions' }
+1 notice cli v3.22.1
+2 verbose rootPath /Users/rubeniskov/Workspace/rubeniskov-website
+3 info versioning independent
+4 error Error: 404 Not Found - GET https://registry.npmjs.org/gl-extensions - Not found
+4 error     at res.buffer.catch.then.body (/Users/rubeniskov/Workspace/rubeniskov-website/node_modules/@evocateur/npm-registry-fetch/check-response.js:104:15)

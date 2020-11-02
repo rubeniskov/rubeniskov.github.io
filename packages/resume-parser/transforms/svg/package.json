@@ -1,0 +1,16 @@
+{
+  "name": "@rubeniskov/resume-transform-svg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "readable-stream": "^2.3.6",
+    "svg.js": "^2.6.5",
+    "svgdom": "0.0.15"
+  }
+}

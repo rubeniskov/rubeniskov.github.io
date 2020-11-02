@@ -1,0 +1,19 @@
+{
+  "name": "@rubeniskov/webpack-render-static-routes-plugin",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "html-webpack-plugin": "^4.5.0",
+    "webpack": "^4.x.x"
+  },
+  "dependencies": {
+    "fast-html-parser": "^1.0.1",
+    "node-html-parser": "^2.0.0"
+  }
+}

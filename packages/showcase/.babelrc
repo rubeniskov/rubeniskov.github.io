@@ -1,0 +1,9 @@
+{
+  "plugins": [
+    [ "babel-plugin-import-to-require", {
+      "modules": [
+        "glslify"
+      ]
+    }]
+  ]
+}

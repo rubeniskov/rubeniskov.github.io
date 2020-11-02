@@ -1,0 +1,17 @@
+{
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "version": "independent",
+  "command": {
+    "exec": {
+      "ignore": "@cnix-ui/{typescript,babel,e2e,storybook,test,scripts}*",
+      "noPrivate": true,
+      "parallel": true
+    },
+    "run": {
+      "ignore": "@cnix-ui/{typescript,babel,e2e,storybook,test,scripts}*",
+      "noPrivate": true,
+      "parallel": true
+    }
+  }
+}

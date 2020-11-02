@@ -1,0 +1,25 @@
+{
+  "name": "@rubeniskov/resume-parser",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "transforms/*"
+    ]
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@rubeniskov/resume-transform-json": "^1.0.0",
+    "@rubeniskov/resume-transform-svg": "^1.0.0",
+    "@rubeniskov/resume-transform-xlsx": "^1.0.0",
+    "@rubeniskov/resume-transform-yml": "^1.0.0",
+    "callback-stream": "^1.1.0",
+    "to-stream": "0.0.2"
+  },
+  "author": "",
+  "license": "ISC"
+}

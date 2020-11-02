@@ -1,0 +1,27 @@
+{
+  "name": "@rubeniskov/sandbox",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^17.0.1",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.12.5",
+    "babel-plugin-styled-components": "^1.11.1",
+    "react": "^17.0.1",
+    "styled-components": "^5.2.1"
+  },
+  "dependencies": {
+    "canvas-fit": "^1.5.0",
+    "glslify-bundle": "^5.1.1",
+    "glslify-deps": "rubeniskov/glslify-deps#feature/migrate_to_es6",
+    "map-limit": "^0.0.1",
+    "regl": "^2.0.1"
+  }
+}

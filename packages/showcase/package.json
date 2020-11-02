@@ -1,0 +1,42 @@
+{
+  "name": "@rubeniskov/showcase",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "browserify": {
+    "transform": [
+      "glslify"
+    ]
+  },
+  "dependencies": {
+    "canvas-fit": "^1.5.0",
+    "gl-context": "^0.1.1",
+    "gl-extension": "^1.1.1",
+    "gl-mesh": "^0.1.0",
+    "gl-reset": "^1.0.0",
+    "gl-shader": "^4.2.1",
+    "gl-shader-extract": "^1.1.2",
+    "gl-texture2d": "^2.1.0",
+    "gl-vignette-background": "^2.0.1",
+    "gl-wireframe": "^1.0.1",
+    "glsl-extract": "^1.0.0",
+    "glsl-noise": "^0.0.0",
+    "glsl-pi": "^1.0.0",
+    "glsl-rotate": "^1.1.0",
+    "glslify": "^7.1.1",
+    "orbit-controls": "^1.2.4",
+    "perspective-camera": "^2.0.1",
+    "primitive-plane": "^2.0.1",
+    "raf-component": "^1.1.2"
+  },
+  "devDependencies": {
+    "babel-plugin-import-to-require": "^1.0.0",
+    "bunny": "^1.0.1",
+    "lena": "^1.0.0"
+  }
+}
