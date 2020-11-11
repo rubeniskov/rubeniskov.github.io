@@ -1,0 +1,898 @@
+---
+version: 3.3.4
+personal_info:
+  first_name: Rubén
+  last_name: López Gómez
+  nickname: rubeniskov
+  nationality: ES
+  bio: |-
+    I started my journey with computers really soon, when I was 5 years old, my father
+    brought to our home an Intel i386 computer. As an industrial engineer, my father
+    had work with CAD to design projects, so it wasn't usual to see that kind of technologies at home.
+
+    It was the first time that I've seen a computer. Since that moment, I was fascinated how a bunch
+    of silicon components sticked in a piece of fiberglass could interact to show anything on a screen. The MSDOS
+    operating system installed was an incredible thing that allows me interact in someway with the system
+    and the graphic coprocessor made me meet games such as Prince of Persia or Gods.
+
+    As a child my pocket money was focused to buy components to make my own personal computer.
+    Usually I used to check the street looking for throwed computers in the trash or asking people if they
+    had some waste boards. Then I built my first own computer at the age of 11
+    years old, it was an AMD k7 Athlon with 700Mhz, to me, was the most powerfull computer that I've meet.
+
+    Being a teen with 15 years old, I was working without the legal availablility to work in
+    a Car Tunning shop fixing radio and navigation systems and installing and preparing audio
+    amplifiers, low and high pass filters, everthing related to car audio electronics.
+    It was the beginin of my interest in modding, computer perfomance and unix operating systems.
+
+    When I finish my highschool, I Started to work and study computer programming, so it was ease
+    to me adapt my previus knowledge to the studies. The worse part of that stage was my exausted
+    life that I was carriying with 18 years old investing many hours a day in both aims. But I can be proud
+    that I've made one of most important projects in my life, a usefull and mainstream webapp buenviajecepsa.com
+
+    After 3 years of economic crysis in spain and a continuos hardwork without a well paid, I tried to looking fordward and
+    find a job in other countries. I was living in london UK, working in a Company that was focused in new technologies
+    such as NodeJS, one of my favorite technologies for the flexibility of its language.
+  website: https://rubeniskov.com
+  contact:
+    email: me@rubeniskov.com
+  social_network:
+    twitter:
+      username: "rubeniskov"
+      url: https://twitter.com/rubeniskov
+    instagram:
+      username: "rubeniskov"
+      url: https://www.instagram.com/rubeniskov/
+    linkedin:
+      username: "rubeniskov"
+      url: https://www.linkedin.com/in/rubeniskov/
+    github:
+      username: "rubeniskov"
+      url: https://github.com/rubeniskov
+  languages:
+  - es_ES
+  - en_US
+academic_experience:
+- type: COURSE
+  name: Advance ES6 Javascript
+  website: https://www.kairosds.com/
+  dates:
+  - 2017
+  institution: KairosDS SL
+  location: Madrid, Spain
+- type: CERTIFICATE
+  name: Iphone iOS 4 Objective C Certificate
+  website: http://www.sykgis.com/
+  dates:
+  - 2011
+  institution: Strategia y Kalidad SL
+  location: Pozuelo de Alarcón, Madrid, Spain
+- type: DEGREE
+  name: High-Level Technical Degree of application development
+  website: http://ies.felipetrigo.mostoles.educa.madrid.org/
+  dates:
+  - 2010
+  - 2011
+  institution: I.E.S. Felipe Trigo
+  location: Madrid, Spain
+- type: CERTIFICATE
+  name: IBM Visual Basic.Net Advance Certificate
+  website: http://www.ceim.es/
+  dates:
+  - 2009
+  institution: CEIM
+  location: Madrid, Spain
+- type: DEGREE
+  name: Mid-Level Technical Degree of computer systems
+  website: https://lasallegrinon.es/
+  dates:
+  - 2008
+  - 2009
+  institution: La Salle
+  location: Griñon, Madrid, Spain
+- type: ACADEMIC
+  name: Bachelor of Technology
+  website: https://lasallegrinon.es/
+  dates:
+  - 2006
+  - 2008
+  institution: La Salle
+  location: Griñon, Madrid, Spain
+work_experience:
+- company: Santander
+  website: https://www.santander.com/
+  sector: Financial bank
+  location: Ciudad Financiera, Boadilla del monte, Madrid
+  occupation: Technical leader
+  dates:
+  - 09/2017
+  - 06/2019
+  tasks:
+  - Developing react applications and modules
+  - Leading team using scrum methodology
+  - Creating docker containers and configure OpenShift
+  - Managing jenkins multibranch pipelines
+  description: |-
+    Technical leader and front-end developer under a project of a web application 
+    for bussines control risk called Aqua+ focused in wholesale banking and based in ReactJS, Redux and RXJS. 
+    
+    One of the main goals on this project was create a atomized ecosystem of components following the google design 
+    standard and the corporative design of santander. This encoraged the reusability in many other project departments. 
+- company: BBVA Compass
+  website: https://www.bbvacompass.com/
+  sector: Financial bank
+  location: Birmingham, Alabama, USA
+  occupation: Senior Full stack
+  dates:
+  - 01/2017
+  - 06/2018
+  tasks:
+  - Self managing projects using Kanban as agile methodology with Jira
+  - Database management in standalone enviroments
+  - Whole development backend and frontend
+  - Migrating Java projects to NodeJS containers with Docker
+  - Enhancing performance
+  description: |-
+    Developing projects in BBVA Compass (USA delegation) based in Birminham  -
+    Alabama, working at home half of the year either Spain and USA.
+    At the begining I was focused on migrate and enhance the existing stadistic tools using
+    NodeJS, React, WebGL 3D for charts and embedding such projects in Docker containers
+    to adapt to the new Amazon Cloudwatch infrastucture.
+
+    Also developing an administration portal called BBVA BackOffice Admin Tool, with NodeJS SDKs to handle RESTfull
+    APIs of BBVA Open Platform and many other admin tools.
+
+    Also developing an Electron App called Honey Badger 2.0 as demo client to
+    test all the capabilities of the newest version of Open Platform 2.0.
+
+    Analitics and stadistics using WebGL for 3D charts
+    HTML and SASS mark-up development with React
+    Restfull API'S, Websockets developing under NodeJS
+- company: Henneo - GlobalStudio
+  website: http://www.globalstudio.es/
+  sector: Media Streaming Platforms
+  location: Madrid, Spain
+  occupation: Chief Front-End Developer
+  dates:
+  - 04/2016
+  - 01/2017
+  description: |-
+    In charge of several projects related to video streaming tools. One of them
+    was an intuitive video editor in cloud with full operatively in web browsers
+    based in WebGL (OpenGLES 2.1) to manage video transitions effects and blending
+    image channels with formats RGB:565, RGBA and YUV 4:2:0 Planar. In order to handle
+    video and audio media files, I developed a x264 and fdk-aac decoders full written
+    in JavaScript, transcoded from C Libs using Emscripten in ASM.js and WebAssembly.
+
+    https://github.com/GlobalStudioES/mest-video-decoder
+
+    This web video editor implements a job manager to handle parallel web workers to take advantage of
+    the CPU specs and decrease cycle leaks of the main thread to ensure the 60fps speed responsiveness.
+
+    All these projects were deployed with development and production environments
+    using Google Cloud Platform in combination with Kubernetes to store Docker
+    released images generated by TravisCI with an automatized E2E and Unit testing
+    executed beyond Browserstack instances to ensure the correctly working in some
+    browser distributions such as Chrome, Safari and Firefox.
+- company: Telefónica
+  website: https://www.telefonica.com
+  sector: Mobile and TV Network Comunications
+  location: Telefónica District, las tablas, Madrid, Spain
+  occupation: Front-end Developer
+  dates:
+  - 02/2015
+  - 04/2016
+  tasks:
+  - HTML and CSS mark-up development
+  - UX/UI Design patterns in Desktop environments
+  - Frontend logical JavaScript functionality with angular 1.4
+  - Using Scrum as agile methodology
+  description: |-
+    Supporting layout, design and usability architecture (UI/UX) of UDo Trouble
+    Ticketing Tool, used to manage order and incidents of multiples services and
+    departments of Telefónica. This tool offers a very complete and compressive
+    interface to handle incidences with automatic report notification to the different
+    departments involved. It also implements a statistical D3.JS 2D graphics to visualize
+    reports with Lucene database to handle field filters and queries.
+- company: El Mundo
+  website: http://www.elmundo.es/
+  sector: Digital newspaper
+  location: Av de San Luis, Madrid, Spain
+  occupation: Front-End Developer and WebDesigner
+  dates:
+  - 01/2014
+  - 02/2015
+  tasks:
+  - HTML and CSS (SASS) mark-up development
+  - UX/UI Design patterns in Desktop and Mobile environments
+  - Backend NodeJS and PHP developer
+  - Web Design with mock-up tools
+  description: |-
+    Technical developer manager in the special journal department and member group
+    of the development of a responsive front-end framework based in SASS and JavaScript
+    for Unidad Editorial called ueFramework. In parallel supporting the department
+    “el mundo día a día” with widgets and addons to elmundo.es using as
+    agile methods Kanban and Scrum
+- company: Freelance
+  website: http://rubeniskov.com/projects
+  sector: Self employer
+  location: Madrid, Spain
+  occupation: Full-Stack Developer
+  dates:
+  - 10/2013
+  - 01/2014
+  tasks:
+  - HTML and CSS (SASS) mark-up development
+  - Backend NodeJS and PHP developer
+  - Web Design with mock-up tools
+  description: |-
+    Freelance developing websites and mobile application in Objective-C (XCODE)
+    for IOS 6 3D Game development for F.C Real Madrid (Aquemy) using WebGL (OpenGLES 2.1)
+    and NodeJS as backend language with a inline platform with WebSockets protocol
+    to handle multiuser interactions.
+- company: The Design Factory
+  website: http://www.thedesignfactory.co.uk/
+  sector: Corporative web and infographic design
+  location: Kings Cross, London, UK
+  occupation: Full-Stack Developer
+  dates:
+  - 02/2013
+  - 10/2013
+  tasks:
+  - HTML and CSS (SASS) mark-up development
+  - Backend own CMS in PHP and some Symphony tools
+  - NodeJS as notification server
+  - Web Design with mock-up tools
+  description: |-
+    Full stack developer working on websites with a custom PHP 5 CMS framework
+    with notify communicator with WebSockets and dedicated NodeJS server to handle
+    data updates, notifications and messaging in real time, Impact at international
+    corporation, working at London UK.
+- company: Pipeline Software
+  website: https://www.pipeline.es/
+  sector: Tourism hotels, transport and lodging
+  location: Madrid, Spain
+  occupation: Full-Stack Developer
+  dates:
+  - 09/2012
+  - 12/2012
+  tasks:
+  - HTML and CSS mark-up development
+  - PHP Symphony
+  - MySql administrator
+  - Frontend Javascript
+  description: |-
+    Developing administrations tools to improve the lodging database integrity
+    using a crawler that matches different services in order to compare the
+    information and solve the most accurate data to reduce the human implication
+    and improve the company production.
+- company: Servytec
+  website: https://www.servytec.es/
+  sector: Server hosting and Networking solutions
+  location: Arroyomolinos, Madrid, Spain
+  occupation: Server and Network Administrator
+  dates:
+  - 06/2011
+  - 09/2012
+  tasks:
+  - Nginx and Apache administrator
+  - Computer technician
+  - Network administrator
+  description: |-
+    Network and system administrator solving network company requirements to provide
+    brand new or improve existing networking installations. Also I had been working
+    as system administrator managing server services such as Apache, Nginx, Imap, and VPN.
+- company: Strategia Y Kalidad - GIS
+  website: http://www.sykgis.com/
+  sector: Geographic Information Consulting
+  location: Pozuelo de Alarcon, Madrid, Spain
+  occupation: Full-Stack Developer
+  dates:
+  - 05/2009
+  - 06/2011
+  tasks:
+  - HTML and CSS layout using ASP.Net
+  - Frontend development with JavaScript jQuery and Ajax communication protocol (Atlas .Net)
+  - Management and development of SOAP APIs through VisualBasic.Net and C #
+  description: |-
+    Full stack developer working on IOS and ASP.Net applications developing virtual
+    maps in collaboration with Map24, using Navteq and Teleatlas cartographies.
+    One of the most important project was a web route car navigator called buenviajecepsa.com
+    where implements the safest route taking the dangerous segments of road as reference and
+    select the spots that you can stop and rest in order to make safer the journey, Others
+    clients: metro de madrid, La Caixa, BMW & MINI, Groupama, cajagranada, Ayto. móstoles, etc.
+projects:
+  - name: Honey Badger 2.0
+    website: https://www.bbvaapimarket.com/
+    dates:
+    - 2018
+    contributors:
+    - https://www.linkedin.com/in/rubeniskov
+    technologies:
+    - LevelDB
+    - Gitlab
+    - NodeJS
+    - Express
+    - WebSockets
+    - React
+    - Redux
+    - SASS
+    - ElectronJS
+    - Babel
+    - Docker
+    - Jira
+    - WebPack
+    - Mocha
+    - Sinon
+    - Karma
+    - Chai
+    - NPM
+    - ES6
+    description: |-
+      Electron App called Honey Badger 2.0 as demo client to
+      test all the capabilities of the newest version of Open Platform 2.0
+  - name: BBVA Compass Backoffice tool
+    website: https://backoffice-openplatform.bbvacompass.com
+    dates:
+    - 2017
+    contributors:
+    - https://www.linkedin.com/in/rubeniskov
+    technologies:
+    - MongoDB
+    - MySQL
+    - NodeJS
+    - Express
+    - InfluxDB
+    - React
+    - Redux
+    - Browserify
+    description: |-
+      Also developing an administration portal called BBVA BackOffice Admin Tool, with NodeJS SDKs to handle RESTfull
+      APIs of BBVA Open Platform and many other admin tools.
+  - name: NKinect
+    website: https://github.com/rubeniskov/nkinect
+    dates:
+    - 2017
+    contributors:
+    - https://www.linkedin.com/in/rubeniskov
+    technologies:
+    - C++
+    - NodeJS
+    - NodeGyP
+    - Kinect
+    description: |-
+      NodeJS kinect binding with libfreenect and libusb-1.0
+  - name: ROS OpenNI Tracker Vulcan
+    website: https://github.com/rubeniskov/ros_openni_tracker_vulcan
+    dates:
+    - 2017
+    contributors:
+    - https://www.linkedin.com/in/rubeniskov
+    - https://www.linkedin.com/in/marcosmallo/
+    technologies:
+    - C++
+    - ROS
+    - Arduino
+    - Kinect
+    - OpenNI
+    - Nite
+    description: |-
+      Human system detection using an airsoft vulcan gun and kinect device tracker with OpenNi and Nite frameworks.
+      ROS serial comunicates the kinect tracker device over wireless connection with an ESP8266WiFi
+      built in the hardware project.
+
+      Links:
+      - https://raw.githubusercontent.com/rubeniskov/ros_openni_tracker_vulcan/master/docs/video-test.gif
+      - https://github.com/rubeniskov/ros_openni_tracker_vulcan
+      - https://youtu.be/JH2JdIL7BWo
+      - https://youtu.be/JztKL8PS8Bk
+  - name: Nawac
+    website: http://www.globalmest.com/videomest/
+    dates:
+    - 2016
+    - 2017
+    contributors:
+    - https://www.linkedin.com/in/rubeniskov
+    - https://www.linkedin.com/in/galerajimenez
+    - https://www.linkedin.com/in/daniel-mundt-47612419/
+    technologies:
+    - NodeJS
+    - Browserify
+    - Github Enterprise
+    - Angular 1.4
+    - jQuery
+    - SASS
+    - LESS
+    - JIRA
+    - TravisCI
+    - Docker
+    - Google Engine
+    - Kubernetes
+    - ES6
+    - Babel
+    - NPM
+    - Mocha
+    - Sinon
+    - Karma
+    - ProtactorJS
+    - MongoDB
+    - WebSockets
+    - WebGL
+    description: |-
+      Video editor in cloud with full operatively in web browsers
+      based in WebGL (OpenGLES 2.1) to manage video transitions effects and blending
+      image channels with formats RGB:565, RGBA and YUV 4:2:0 Planar. In order to handle
+      video and audio media files, I developed a x264 and fdk-aac decoders full written
+      in JavaScript, transcoded from C Libs using Emscripten in ASM.js and WebAssembly.
+
+      This web video editor implements a job manager to handle parallel web workers to take advantage of
+      the CPU specs and decrease cycle leaks of the main thread to ensure the 60fps speed responsiveness.
+
+      ## Supported by Google DNI
+      - http://www.extradigital.es/google-apoyara-a-henneo-en-el-desarrollo-de-un-proyecto-de-video-digital/
+
+      ## NodeJS Modules:
+
+      Video Composer tracks video, effects and audio mixer
+      - https://github.com/GlobalStudioES/mest-video-composer
+
+      Pure javascript video H264 and audio AAC decoder
+      - https://github.com/GlobalStudioES/mest-video-decoder
+
+      WebGL Video Player
+      - https://github.com/GlobalStudioES/mest-video-glayer
+
+      Player based in the popular Video.js player support VAST and Pulse ADS system
+      - https://github.com/GlobalStudioES/mest-video.js
+
+      VAST 3.0 client library for Javascript http://www.iab.net/media/file/VASTv3.…
+      - https://github.com/GlobalStudioES/vast-client-js
+
+  - name: UDo Trouble Ticketing Tool
+    website: https://udo-tt.com
+    dates:
+    - 2016
+    contributors:
+    - https://www.linkedin.com/in/rubeniskov
+    - https://www.linkedin.com/in/galerajimenez
+    - https://www.linkedin.com/in/emilioag
+    - https://www.linkedin.com/in/manuel-jose-cristobal-mu%C3%B1iz-19b31b15
+    - https://www.linkedin.com/in/juan-barreto-b57480a
+    - https://www.linkedin.com/in/ignacio-cara-mart%C3%ADn
+    technologies:
+    - NodeJS
+    - Github Enterprise
+    - Gulp
+    - Elastic Search
+    - Python
+    - MongoDB
+    - AngularJS 1.4.6
+    - jQuery
+    - SASS
+    - LESS
+    - Jira
+    - Jenkins
+    - Scrum
+    - D3.JS
+    description: |-
+      Ticketing Tool, used to manage order and incidents of multiples services and
+      departments of Telefónica. This tool offers a very complete and compressive
+      interface to handle incidences with automatic report notification to the different
+      departments involved. It also implements a statistical D3.JS 2D graphics to visualize
+      reports with Lucene database to handle field filters and queries.
+  - name: Karma Selenium Webdriver
+    website: https://github.com/rubeniskov/karma-selenium-webdriver
+    dates:
+    - 2016
+    contributors:
+    - https://www.linkedin.com/in/rubeniskov
+    technologies:
+    - NodeJS
+    - Github
+    - Grunt
+    - Trello
+    description: |-
+      Karma plugin, allow you launch selenium instances in remote enviroments to drive your
+      unit or E2E tests
+  - name: PyWildCard
+    website: https://pypi.python.org/pypi/pywildcard
+    dates:
+    - 2015
+    contributors:
+    - https://www.linkedin.com/in/rubeniskov
+    - https://www.linkedin.com/in/galerajimenez
+    - https://www.linkedin.com/in/emilioag
+    technologies:
+    - Python
+    - Github
+    description: |-
+      A fork of fnmatch to indicate that implements recursion ** in python
+      using the glob standard
+  - name: SandFox SASS
+    website: https://github.com/rubeniskov/sandfox-sass
+    dates:
+    - 2015
+    contributors:
+    - https://www.linkedin.com/in/rubeniskov
+    - https://www.linkedin.com/in/alberto-galan/
+    technologies:
+    - Github
+    - jQuery
+    - SASS
+    - Trello
+    description: |-
+      Sass library with utilities and responsive components
+  - name: UEFramework
+    contributors:
+    - https://www.linkedin.com/in/rubeniskov/
+    - https://www.linkedin.com/in/qborreda/
+    - https://www.linkedin.com/in/jdmgarcia/
+    technologies:
+    - Gitlab
+    - ES5 Javascript
+    - NodeJS
+    - Grunt
+    - jQuery
+    - QUnit
+    - SASS
+    description: |-
+      SASS and Javascript framerwork used in Unidad Editorial.
+  - name: UEDocs
+    contributors:
+    - https://www.linkedin.com/in/rubeniskov/
+    technologies:
+    - Gitlab
+    - NodeJS
+    - SocketIO
+    - Grunt
+    - jQuery
+    - QUnit
+    - ES5
+    - Jasmine
+    - Karma
+    description: |-
+      Markdown editor for documentation with real time content and multiuser based on WebSockets (SocketIO).
+  - name: Journal ElMundo La vida de Bangaly
+    website: http://www.elmundo.es/especiales/bangaly/
+    contributors:
+    - https://www.linkedin.com/in/rubeniskov/
+    - https://www.linkedin.com/in/olallanovoa/
+    - https://www.linkedin.com/in/cristina-p%C3%A9rez-g%C3%A1ndaras-93809616
+    description: |-
+      Dedicated to the testimony of an Ivorian immigrant, traveling during 4
+      years between Africa and Europe struggling to survive. This project has an interactive video documentary
+      with an unattended route on google maps to provide information on each step on his journey, it's also include animated
+      graphics to show information about the imigration in Europe.
+    technologies:
+    - Gitlab
+    - NodeJS
+    - SASS
+    - Grunt
+    - SnapSVG
+    - D3.JS
+    - jQuery
+    - QUnit
+    - ES5
+    - Jasmine
+    - Karma
+  - name: Journal ElMundo Vivir en Negro
+    website: http://www.elmundo.es/especiales/vivir-en-negro/
+    contributors:
+    - https://www.linkedin.com/in/rubeniskov/
+    - https://www.linkedin.com/in/olallanovoa/
+    - https://www.linkedin.com/in/cristina-p%C3%A9rez-g%C3%A1ndaras-93809616
+    technologies:
+    - Gitlab
+    - NodeJS
+    - SASS
+    - Grunt
+    - D3.JS
+    - jQuery
+    - QUnit
+    description: |-
+      About the corruption and money laundering throughout Spain, with great success in social networks.
+      Was the first project in the company to has a Responsive interface, aiming
+      interact with responsive graphics
+
+      Nominated to 2015 Online Journalism Awards category categoría "FEATURE, LARGE"
+
+      - http://journalists.org/2015/08/11/2015-online-journalism-awards-finalists-announced/
+  - name: Arquemy
+    website: https://www.facebook.com/RealMadridArquemy/
+    contributors:
+    - https://www.linkedin.com/in/rubeniskov/
+    technologies:
+    - SVN
+    - NodeJS
+    - WebGL
+    - SASS
+    - Grunt
+    - Twig
+    - SocketIO
+    - THREE.JS
+    description: |-
+      TDB
+  - name: Imperioled
+    contributors:
+    - https://www.linkedin.com/in/rubeniskov/
+    description: |-
+      TDB
+  - name: Capumen Website
+    website: http://www.capumen.com
+    dates:
+    - 2013
+    contributors:
+    - https://www.linkedin.com/in/rubeniskov/
+    technologies:
+    - SVN
+    - PHP
+    - Bootstrap
+    - SASS
+    - Javascript
+    - NodeJS
+    - MySQL
+    - SocketIO
+    description: |-
+      Website for the recognized company Capumen recruitment with a custom CMS system.
+  - name: TSW Website
+    website: http://www.thespecialistworks.com/
+    dates:
+    - 2013
+    contributors:
+    - https://www.linkedin.com/in/rubeniskov/
+    technologies:
+    - SVN
+    - PHP
+    - Bootstrap
+    - SASS
+    - Javascript
+    description: |-
+      Website for the recognized marketing agency The Specialist Works considered one of the most important in UK.
+  - name: Orbisbooking Database Integrity Tool
+    website: https://www.pipeline.es/productos/orbis_booking.htm
+    contributors:
+    - https://www.linkedin.com/in/rubeniskov/
+    technologies:
+    - SVN
+    - PHP
+    - GoogleAPI
+    - GoogleMaps V2
+    - HTML
+    - CSS
+    - MySQL
+    - JavaScript
+    - Symphony
+    description: |-
+      Administration tools to improve the lodging database integrity
+      using a crawler that matches different services in order to compare the
+      information and solve the most accurate data to reduce the human implication
+      and improve quality of service.
+  - name: Cajagranada Iphone App
+    dates:
+    - 2011
+    website: http://itunes.apple.com/es/app/id415463116
+    contributors:
+    - https://www.linkedin.com/in/rubeniskov/
+    technologies:
+    - Objective-C 5
+    - Map24
+    - ASP.NET
+    - SOAP
+    - MSSQL
+    - ALTAS (Ajax Protocol ASP Library)
+    - jQuery
+    - CSS
+    - HTML
+    - Java Applets
+    description: |-
+      Bank office finder for Cajagranada based in iOS 6 wrapper and javascript framework using Map24 API'S
+  - name: Metro de madrid Station route planner
+    website: https://www.metromadrid.es/es/viaja_en_metro/trayecto_recomendado
+    dates:
+    - 2011
+    contributors:
+    - https://www.linkedin.com/in/monica-moreno-691761b/
+    - https://www.linkedin.com/in/rubeniskov/
+    technologies:
+    - Flash
+    - Map24
+    - ASP.NET
+    - SOAP
+    - MSSQL
+    - ALTAS (Ajax Protocol ASP Library)
+    - jQuery
+    - CSS
+    - HTML
+    description: |-
+      Route planner through underground stations considering sidewalks routes between line connections.
+  - name: City maps of town halls (Animsa, Valdemoro, Denia)
+    website: http://www.valdemoro.es/mapa
+    dates:
+    - 2010
+    contributors:
+    - https://www.linkedin.com/in/rubeniskov/
+    technologies:
+    - Map24
+    - ASP.NET
+    - SOAP
+    - MSSQL
+    - ALTAS (Ajax Protocol ASP Library)
+    - jQuery
+    - CSS
+    - HTML
+    - Java Applets
+    description: |-
+      City map with point of interest and interactive interface to provide typical
+      routes and tourist information focused to town hall clients
+  - name: Groupama Office Locator
+    dates:
+    - 2010
+    contributors:
+    - https://www.linkedin.com/in/rubeniskov/
+    technologies:
+    - Map24
+    - ASP.NET
+    - SOAP
+    - MSSQL
+    - ALTAS (Ajax Protocol ASP Library)
+    - jQuery
+    - CSS
+    - HTML
+    - Java Applets
+    description: |-
+      Locator of insurance offices with category filters and route planner
+  - name: Buenviajecepsa.com
+    website: http://www.buenviajecepsa.com
+    dates:
+    - 2009
+    - 2011
+    contributors:
+    - https://www.linkedin.com/in/rubeniskov/
+    technologies:
+    - Map24
+    - ASP.NET
+    - SOAP
+    - MSSQL
+    - ALTAS (Ajax Protocol ASP Library)
+    - jQuery
+    - CSS
+    - HTML
+    - Java Applets
+    description: |-
+      Web route planner that implements the safest route taking the risky
+      of the segments of road as a reference and showing colored chunks by the danger
+      level, also the itinerary provides the spots that you can stop and rest
+      in order to make safer the journey of the user.
+
+      TV Advert: https://youtu.be/hWhBEy_1QVY
+recomendations:
+  - writer: Manuel José Cristóbal Muñiz
+    avatar: assets/avatars/manuel-jose-cristobal-muniz.jpeg
+    occupation: Chief project manager in Telefónica I+D
+    contact:
+    - https://www.linkedin.com/in/manuel-jose-cristobal-mu%C3%B1iz-19b31b15/
+    date: 2016/12/15
+    rerecomendation: https://www.slideshare.net/slideshow/embed_code/key/3Scz4Hw5uHKcJH
+    recomendation: |-
+      Manuel José Cristóbal Muñiz Scrum Master de la iniciativa UDo gCTO Telefónica Global Resources
+      A la atención de la persona encargada de Recursos Humanos:
+      Expongo mi parecer respecto al periodo laboral que ha desempeñado D. Rubén López Gómez,
+      como desarrollador frontend durante su colaboración en Alten para gCTO.
+
+      Durante el período 2015-2016, el señor Rubén López Gómez ha colaborado en Alten
+      en un proyecto impulsado por gCTO Telefónica Global Resources, y concretamente
+      en el área de Herramientas Globales de Operación realizando labores de desarrollo
+      frontend en la iniciativa UDo.
+      Cabe destacar su rápida incorporación a la dinámica del equipo, que le permitió
+      dar un óptimo desempeño en las áreas de desarrollo y soporte a delivery, y
+      le convirtió rápidamente en un integrante más del equipo en cuanto a colaboración y
+      valoración por parte del resto de sus compañeros.
+      Especial mención a su elevada capacidad técnica en entornos de desarrollo web,
+      así como su autonomía para sacar adelante el trabajo sin requerir una supervisión cercana.
+
+      En poco tiempo colaboró con el resto del equipo ofreciendo un muy alto rendimiento y de gran calidad.
+      A nivel personal quisiera agradecerle su implicación, dedicación y proactividad, que nos ha permitido mejorar y evolucionar aún más nuestra herramienta.
+      Quedo a su disposición para cualquier aclaración o información adicional que ustedes precisen.
+
+      A 15 de diciembre de 2016
+
+      Atentamente
+
+      Manuel José Cristóbal Muñiz
+  - writer: Quique Borredá
+    avatar: assets/avatars/quique-borreda.jpeg
+    occupation: Lead Front-end Developer / { ES6 / React / Vue }
+    contact:
+    - https://www.linkedin.com/in/qborreda/
+    date: 2016/12/15
+    recomendation:
+      Rubén es un programador brillante. Una de esas mentes inquietas y curiosas
+      a las que nada se le resiste, que aprende y mejora constantemente, y siempre
+      busca producir el mejor código posible, al día de las mejores prácticas, y
+      hábil a la hora de integrarlas.
+  - writer: Victor Vaquero Gonzaléz de Quevedo
+    avatar: assets/avatars/victor-vaquero-gonzalez.jpeg
+    occupation: 3D Artist / 3D Videomapper en Freelancer
+    contact:
+    - https://www.linkedin.com/in/victorvaqglez/
+    date: 2015/04/01
+    recomendation:
+      Ha sido un placer trabajar con Rubén López Gómez, cualquiera que haya tenido
+      la suerte de hacerlo, podrá decir lo mismo.
+
+      Se toma cada proyecto como un reto personal y no desiste hasta que obtiene
+      el mejor de los resultados, empujando al equipo hacia el perfeccionamiento
+      de los mínimos detalles, que diferencian un buen trabajo de un trabajo excelente.
+      Cuida tanto el procedimiento como el acabado, se preocupa tanto por su trabajo
+      como por el de sus compañeros de equipo. Es un apoyo constante que fue, en HighRise, imprescindible.
+      Recomiendo insistentemente a Rubén López Gómez para cualquier candidatura.
+  - writer: Juanma García Moreno
+    avatar: assets/avatars/juanma-garcia-moreno.jpeg
+    occupation: Frontend Developer at Isobar
+    contact:
+    - https://www.linkedin.com/in/jdmgarcia/
+    date: 2015/03/31
+    recomendation:
+      Es un trabajador perfeccionista y con mucha iniciativa que se preocupa mucho
+      por su trabajo y el bien de la empresa.Siempre está dispuesto a compartir
+      sus conocimientos con los compañeros y adquirir más para poder mejorar.
+  - writer: Juanma García Moreno
+    avatar: assets/avatars/juanma-garcia-moreno.jpeg
+    occupation: Frontend Developer at Isobar
+    contact:
+    - https://www.linkedin.com/in/jdmgarcia/
+    date: 2015/03/31
+    recomendation:
+      Rubén es muy resolutivo, se adapta rápido a metodologías que no conoce y siempre
+      intenta ir más allá de lo que se propone. Un genio para la maquetación tanto a nivel CSS y HTML
+      como a nivel JavaScript. Ha sido y sigue siendo un placer contar contigo tanto para trabajar como en lo personal.
+  - writer: Olalla Novoa
+    avatar: assets/avatars/olalla-novoa.jpeg
+    occupation: Digital content + Innovation at Unidad Editorial
+    contact:
+    - https://www.linkedin.com/in/olallanovoa/
+    date: 2015/03/31
+    recomendation:
+      La versatilidad de Rubén López ha sido esencial para producir por primera vez en elmundo.es un diseño
+      'responsive' en la sección de Especiales. Rubén piensa en grande, y eso es muy de agradecer cuando
+      buscas innovación y grandes retos. Su pasión por los desafíos y sus conocimientos técnicos, canalizados
+      convenientemente, me parecen un tándem excelente, y estoy segura de que sabrá sacar de ellos todo el partido que prometen.
+  - writer: Cristina Pérez Gándaras
+    avatar: assets/avatars/cristina-perez-gandaras.jpeg
+    occupation: Web designer at Unidad Editorial
+    contact:
+    - https://www.linkedin.com/in/cristina-pérez-gándaras-93809616/
+    date: 2015/03/31
+    recomendation:
+      Rubén es un entusiasta en todo lo que tiene que ver con el ámbito del diseño y desarrollo web.
+      Gran profesional, buen compañero y con capacidad para trabajar en equipo. Innovador y creativo,
+      es idóneo para diseñar soluciones de calidad en proyectos técnicamente complejos, dando siempre el 200%.
+  - writer: Chema Sánchez
+    avatar: assets/avatars/chema-sanchez.jpeg
+    occupation: Software Analyst / Engineer at Gameloft
+    contact:
+    - https://www.linkedin.com/in/chema-sanchez/
+    date: 2014/11/29
+    recomendation:
+      For the time we have been workmates, Rubén has proven to be an incredible professional.
+      Reliable every single time, his extensive knowledge served as foundation
+      for the rest of the team. Pioneer in the use of WebGL technology,
+      dedicated Videogame Developer and expert Systems Administrator.
+      Rubén is, undoubtedly, a professional to consider.
+awards:
+  - name: Google Support - Digital News Innovation Fund
+    date: 2016
+    website: http://www.extradigital.es/google-apoyara-a-henneo-en-el-desarrollo-de-un-proyecto-de-video-digital/
+    description:
+      El proyecto Nawac presentado por Henneo, dotado con 400.000 euros, tiene como fin
+      eliminar las barreras a las que se enfrentan los medios digitales a la hora de producir, editar, publicar y manejar contenido audiovisual.
+      Se trata de un editor de vídeos que combina los beneficios de la “nube” (automatización y escalabilidad)
+      con la capacidad de procesamiento de cualquier dispositivo para conseguir reducir costes, menor dependencia de terceros y
+      atraer más audiencia y monetización. Henneo colaborará con Global Studio en el desarrollo de la plataforma Nawac.
+  - name: Online Journalism Awards
+    date: 2015
+    website: http://journalists.org/2015/08/11/2015-online-journalism-awards-finalists-announced/
+    description: |-
+      Finalists for the 2015 Online Journalism Awards, representing a wide range
+      of nonprofit, public, academic, major media, and emerging technology organizations
+      from around the globe, were announced by the Online News Association.
