@@ -10,3 +10,19 @@ Mantener la cabeza fria y simplificar las tareas es un objetivo que hay que tene
 La idea era crear un portal donde dar visibilidad a proyectos en lo que me he embarcado. Demostrar que aun careciendo del conocimiento en algunos campos, con paciencia se puede aprender de casi cualquier cosa. 
 
 Mostrar mi proceso de aprendizaje y compartirlo con el resto.  Y de alguna manera retroalimentar las ganas de seguir haciendo este tipo de proyectos.
+
+
+
+```glsl
+precision mediump float;
+#pragma glslify: snoise2 = require(glsl-noise/simplex/2d) 
+
+uniform vec2 resolution;
+uniform float time;
+
+void main() {
+	vec2 st = gl_FragCoord.xy/resolution;
+
+	gl_FragColor = vec4(vec3(snoise2(5.0 * st + time * 0.1)), 1.0);
+}
+```
