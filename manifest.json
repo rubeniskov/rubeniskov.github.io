@@ -1,25 +1,61 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
-  "icons": [
-    {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
+    "short_name": "Rubeniskov's website",
+    "name": "Rubeniskov's website",
+    "icons": [
+        {
+            "src": "favicon.ico",
+            "sizes": "64x64 32x32 24x24 16x16",
+            "type": "image/x-icon"
+        },
+        {
+            "src": "logo192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "logo512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff",
+    "blog": {
+        "posts": [
+            {
+                "username": "rubeniskov",
+                "created": 1605095753882,
+                "modified": 1605096593555,
+                "title": "Finnaly I made my website",
+                "words": 5,
+                "url": "/blog/en/finally-i-made-my-website"
+            },
+            {
+                "username": "rubeniskov",
+                "created": 1605482361002,
+                "modified": 1605698876073,
+                "title": "Shading with glslify in browser",
+                "words": 191,
+                "url": "/blog/en/shader-sandbox-glslify"
+            },
+            {
+                "username": "rubeniskov",
+                "created": 1606150471416,
+                "modified": 1606153496198,
+                "title": "Traverse json like a king",
+                "words": 89,
+                "url": "/blog/en/traverse-json-like-a-king"
+            },
+            {
+                "username": "rubeniskov",
+                "created": 1605095801057,
+                "modified": 1606065859537,
+                "title": "Al fin terminé mi página",
+                "words": 242,
+                "url": "/blog/es/al-fin-termine-mi-pagina"
+            }
+        ]
     }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
 }
